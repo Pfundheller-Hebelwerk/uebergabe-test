@@ -1,0 +1,11 @@
+{
+  "titel": "Dachdeckerei Muster",
+  "untertitel": "Seit 1974 in Lübeck",
+  "telefon": "0451 1234567",
+  "oeffnungszeiten": "Mo bis Fr, 7 bis 16 Uhr",
+  "heroBild": "/images/dach.jpg",
+  "leistungen": [
+    { "name": "Steildach", "beschreibung": "Neueindeckung und Reparatur" },
+    { "name": "Flachdach", "beschreibung": "Abdichtung und Sanierung" }
+  ]
+}

@@ -1,0 +1,50 @@
+media:
+  - name: bilder
+    input: public/images
+    output: /images
+    extensions: [jpg, jpeg, png, webp, svg]
+
+content:
+  - name: startseite
+    label: Startseite
+    type: file
+    path: content/startseite.json
+    format: json
+    fields:
+      - name: titel
+        label: Überschrift Startseite
+        type: string
+        required: true
+        description: Steht ganz oben auf der Seite. Maximal 60 Zeichen.
+      - name: untertitel
+        label: Zeile unter der Überschrift
+        type: text
+        description: Ein Satz. Maximal 120 Zeichen.
+      - name: telefon
+        label: Telefonnummer
+        type: string
+        description: So wie sie auf der Seite stehen soll, mit Leerzeichen.
+      - name: oeffnungszeiten
+        label: Öffnungszeiten
+        type: string
+        description: Zum Beispiel Mo bis Fr, 7 bis 16 Uhr.
+      - name: heroBild
+        label: Großes Bild oben
+        type: image
+        description: Querformat, mindestens 1600 Pixel breit.
+        options:
+          media: bilder
+      - name: leistungen
+        label: Leistungen
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Bezeichnung
+            type: string
+          - name: beschreibung
+            label: Kurzbeschreibung
+            type: text
