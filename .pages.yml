@@ -9,9 +9,10 @@ settings:
   content: true
   commit:
     identity: user
-    create: "{path} angelegt von {userName} (Pages CMS)"
-    update: "{path} geändert von {userName} (Pages CMS)"
-    delete: "{path} gelöscht von {userName} (Pages CMS)" 
+    templates:
+      create: "{path} angelegt von {userName} (Pages CMS)"
+      update: "{path} geändert von {userName} (Pages CMS)"
+      delete: "{path} gelöscht von {userName} (Pages CMS)" 
     
 content:
   - name: startseite
@@ -57,3 +58,7 @@ content:
           - name: beschreibung
             label: Kurzbeschreibung
             type: text
+       - name: metaBeschreibung
+        label: Meta-Beschreibung
+        type: string
+        hidden: true                   
