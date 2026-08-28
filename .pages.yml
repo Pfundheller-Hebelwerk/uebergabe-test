@@ -3,7 +3,8 @@ media:
     input: public/images
     output: /images
     extensions: [jpg, jpeg, png, webp, svg]
-
+    rename: safe
+    
 content:
   - name: startseite
     label: Startseite
