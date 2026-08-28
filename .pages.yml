@@ -58,7 +58,7 @@ content:
           - name: beschreibung
             label: Kurzbeschreibung
             type: text
-       - name: metaBeschreibung
+      - name: metaBeschreibung
         label: Meta-Beschreibung
         type: string
         hidden: true                   
