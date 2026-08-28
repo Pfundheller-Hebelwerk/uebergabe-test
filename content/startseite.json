@@ -1,5 +1,5 @@
 {
-  "titel": "Dachdeckerei Muster",
+  "titel": "Dachdeckerei Muster GmbH",
   "untertitel": "Seit 1974 in Lübeck",
   "telefon": "0451 9999999",
   "oeffnungszeiten": "Mo bis Fr, 7 bis 17 Uhr, Fr bis 13 Uhr",
@@ -13,6 +13,5 @@
       "name": "Dachrinne",
       "beschreibung": "Reinigung und Austausch"
     }
-  ],
-  "metaBeschreibung": "Dachdeckerei Muster aus Lübeck, seit 1974."
+  ]
 }
