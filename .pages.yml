@@ -5,6 +5,14 @@ media:
     extensions: [jpg, jpeg, png, webp, svg]
     rename: safe
     
+settings:
+  content: true
+  commit:
+    identity: user
+    create: "{path} angelegt von {userName} (Pages CMS)"
+    update: "{path} geändert von {userName} (Pages CMS)"
+    delete: "{path} gelöscht von {userName} (Pages CMS)" 
+    
 content:
   - name: startseite
     label: Startseite
